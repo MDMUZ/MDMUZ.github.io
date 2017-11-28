@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mdm.css" type="text/css">
+</head>
+<body onload="myFunction()" style="margin:0;"> 	
+	<div id="loader"></div>
+	<div style="display:none;" id="myDiv" class="animate-bottom">
+<header>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+  <div class="icon-bar">
+  <a href="#mainn"><i class="fa fa-address-card"></i></a> 
+  <a href="#buy"><i class="fa fa-cart-arrow-down"></i></a> 
+  <a href="#"><i class="fa fa-home"></i></a> 
+  <a href="#demo"><i class="fa fa-trademark"></i></a>
+  <a href="#leftt"><i class="fa fa-map" ></i></a> 
+</div>
+		<div class="nomer"><br>
+			</div>
+			<div class="header_details">
+				<p class="good">
+		 		<img src="m.png" width="170" height="300">   <img src="MDMT.png" width="500" height="200"><br>MDM COMPANY  
+	 				<br>
+	 				<span class="a">Build your future with us!!!</span></p>
+<center>
+				<a href="#mainn" class="button">About our Company</a> 
+			</center>
+		</div>
+
+</header>
+<main>
+
+
+<div id="mainn">
+	<div class="center">
+		<div class="card">
+  <img src="6.jpg" style="width:78%">
+  <h2>Okhunjon Sobirjonov</h2>
+  <p class="title">Investor of</p>
+  <p>MDM company</p>
+  <div style="margin: 24px 0;">
+   <a href="#m"><i class="fa fa-facebook-square"></i></a> 
+    <a href="#"><i class="fa fa-skype"></i></a>  
+    <a href="#"><i class="fa fa-telegram"></i></a>  
+    <a href="http://instagram.com/Okhunjon"><i class="fa fa-instagram"></i></a> 
+ </div>
+ <p> <a href="http://telegram.me/IM_5580"><button>Contact</button></a></p>
+</div>
+	</div>
+
+	 		<div class="left">
+	 					<div class="card">
+  <img src="7.jpg" style="width:60%">
+  <h2>Iskandarbek Ibrokhimov</h2>
+  <p class="title">Director of</p>
+  <p>MDM company</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-facebook-square"></i></a> 
+    <a href="#"><i class="fa fa-skype"></i></a>  
+    <a href="#"><i class="fa fa-telegram"></i></a>  
+    <a href="http://instagram.com/iskandari777"><i class="fa fa-instagram"></i></a> 
+ </div>
+ <p><a href="http://telegram.me/IM_5580"><button>Contact</button></a></p>
+</div>
+	</div>	 	
+	 		<div class="left">
+	 					<div class="card">
+  <img src="8.jpg" style="width:60%">
+  <h2>Shamshiddin Sadirdinov</h2>
+  <p class="title">Manager of</p>
+  <p>MDM company</p>
+  <div style="margin: 24px 0;">
+    <a href="#m"><i class="fa fa-facebook-square"></i></a> 
+    <a href="#"><i class="fa fa-skype"></i></a>  
+    <a href="#"><i class="fa fa-telegram"></i></a>  
+    <a href="http://instagram.com/Shamshiddin7"><i class="fa fa-instagram"></i></a> 
+ </div>
+ <p><a href="http://telegram.me/IM_5580"><button>Contact</button></a></p>
+			</div>
+
+		</div>
+
+</div><div id="buy">
+<hr> <center><h3><i class="fa fa-gift"></i>
+	Wait new Year with us!<br>"PILLO"</h3></center> 
+	<img src="1.png" width="600" height="725">
+</div>
+<p id="demo"></p>
+<a href="#" id="CLICK">CLICK to know about "PILLO"... </a> <br>
+<br><hr>
+<br>
+<div>
+	<div class="right">
+		<h1>Buying our pruduct you need to send your details to us!</h1>
+	 			<form action="telegram.php" method="post">
+	 				
+	 				<input class="in"  type="text" name="name" placeholder="Username" required><br><br>
+	 				<input class="in" type="tel" placeholder="Telepone" name="phone" required>
+	 				<br/>
+	 				<br>
+	 				<input class="submit" type="submit" name="submit" value="Submit" class="button">
+	 			</form>
+	 		</div>
+
+
+		</div>
+</main>
+
+<footer>
+		<div id="leftt" >
+			
+	    	<div class="leftt"><a href="#"><i class="fa fa-check-square-o"></i></a> 
+	    	  Developed by:Iskandarbek Ibrokhimov<br>
+	    	<a href="#"><i class="fa fa-phone"></i></a>  Contact:+998998158210 
+	        <a href="https://IM_5580"></a>	
+	    	<a href="#"><i class="fa fa-facebook"></i></a> 
+		    <a href="#"><i class="fa fa-telegram" ></i></a> 
+			<a href="#"><i class="fa fa-skype"></i></a>
+			<br><a href="#"><i class="fa fa-copyright"></i></a>  Copyright  2017
+			</div>
+				<div  class="location" id="map" style="width:400px;height:400px;background:yellow"></div>
+				<script>
+
+var countDownDate = new Date("Jan 1, 2018 15:37:25").getTime();
+
+var x = setInterval(function() {
+  
+    var now = new Date().getTime();
+
+    var distance = countDownDate - now;
+   
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+  
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(41.353422, 69.286962),
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+			</div>
+	    
+</p>
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</footer>	
+
+
+</div>
+
+</body>
+</html>
